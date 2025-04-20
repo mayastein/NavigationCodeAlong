@@ -16,13 +16,25 @@ struct ContentView: View {
                     .fontWeight(.semibold)
                     .foregroundColor(Color(hue: 0.359, saturation: 0.348, brightness: 0.485))
                 NavigationLink(destination: About()){
-                    Text("ABOUT PAGE")
+                    Image("about icon")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fill)
+                        .padding(.all)
+                        .frame(width: 200.0, height: 200.0)
                 }
                 NavigationLink(destination: Contact()) {
-                    Text("CONTACT PAGE")
+                    Image("contact icon")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fill)
+                        .padding(.all)
+                        .frame(width: 200.0, height: 200.0)
                 }
                 NavigationLink(destination: Help()) {
-                    Text("HELP PAGE")
+                    Image("help icon")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fill)
+                        .padding(.all)
+                        .frame(width: 200.0, height: 200.0)
                 }
 
             }

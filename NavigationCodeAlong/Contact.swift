@@ -10,6 +10,9 @@ import SwiftUI
 struct Contact: View {
     var body: some View {
         Text("CONTACT")
+            .font(.largeTitle)
+            .fontWeight(.medium)
+            .foregroundColor(Color(hue: 0.381, saturation: 0.683, brightness: 0.548))
     }
 }
 
